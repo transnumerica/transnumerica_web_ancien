@@ -50,12 +50,14 @@ class AppController extends ApiController {
 
     $this->layout = 'default';
 
+
+/*
     // On met les www. pour rendre beau nos sites
     $server_name = $_SERVER['HTTP_HOST'];
     if (!$this->request->is('json') AND substr($server_name, 0, 4) != 'www.' AND Configure::read('App.localhost') === false) {
       $this->redirect('http://www.' . $server_name . $this->here);
     }
-
+*/
 
     if (!$this->Components->enabled('Security')){
       if (!isset($this->request->data['_Token'])) unset($this->request->data); // Important pour eviter les trous noir indessirable
