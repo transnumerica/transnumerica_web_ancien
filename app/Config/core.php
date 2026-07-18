@@ -7,11 +7,16 @@ if(in_array($_SERVER['REMOTE_ADDR'], $localhost) OR (stripos($_SERVER['REMOTE_AD
 	Configure::write('App.localhost', true);
 }else {
 	Configure::write('debug', 2);
-	Configure::write('App.localhost', false);
+    Configure::write('App.localhost', false);
 
-	App::uses('CakeRequest', 'Network');
-	$request = new CakeRequest;
-	ini_set('session.cookie_domain', $request->domain());
+    App::uses('CakeRequest', 'Network');
+    $request = new CakeRequest;
+    
+    // NOUVEAU CODE : On ne force le cookie_domain que si ce n'est pas une IP brute
+    $domain = $request->domain();
+    if (!filter_var($domain, FILTER_VALIDATE_IP)) {
+        ini_set('session.cookie_domain', $domain);
+    }
 
 }
 
