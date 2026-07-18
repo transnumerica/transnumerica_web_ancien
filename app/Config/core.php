@@ -3,10 +3,10 @@ Configure::write('Time', microtime(true));
 
 $localhost = array('127.0.0.1', "::1");
 if(in_array($_SERVER['REMOTE_ADDR'], $localhost) OR (stripos($_SERVER['REMOTE_ADDR'], '192.168.') === 0) OR $_SERVER['SERVER_NAME'] == 'ste-pc') {
-	Configure::write('debug', 2);
+	Configure::write('debug', 0);
 	Configure::write('App.localhost', true);
 }else {
-	Configure::write('debug', 2);
+	Configure::write('debug', 0);
     Configure::write('App.localhost', false);
 
     App::uses('CakeRequest', 'Network');
