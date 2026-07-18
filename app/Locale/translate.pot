@@ -1,0 +1,47 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Controller/AppController.php:74
+msgid "Erreur, veuillez remplir les champs correctement"
+msgstr ""
+
+#: Controller/AppController.php:76
+msgid "Le formulaire a expiré, Veuillez réessayer"
+msgstr ""
+
+#: Controller/AppController.php:83
+msgid "Erreur, veuillez remplir les champs correctement (%s)"
+msgstr ""
+
+#: Controller/PanierController.php:64
+msgid "Vous etes déjà connectés!"
+msgstr ""
+
+#: Controller/PanierController.php:74
+msgid "Adresse E-mail ou/et mot de passe invalide, réessayer"
+msgstr ""
+
+#: Controller/PanierController.php:314
+msgid "Merci de patienter pendant que nous traitons votre commande, Vous serez rediriger vers PayPal ..."
+msgstr ""
+
+#: View/Elements/note.ctp:2
+msgid "Notes du rayon"
+msgstr ""
+
+#: View/Errors/error400.ctp:11
+msgid "Erreur"
+msgstr ""
+

@@ -1,0 +1,23 @@
+
+.bus-seats div.seatCharts-seat.available {
+	background-color: #C0C0C0;
+
+}
+.bus-seats div.seatCharts-seat.available.first-class {
+/* 	background: url(vip.png); */
+	background-color: #FFA500;
+}
+
+.bus-seats div.seatCharts-seat.available.second-class {
+/* 	background: url(vip.png); */
+    background-color: #32CD32;
+}
+.bus-seats div.seatCharts-seat.focused {
+	background-color: #76B474;
+}
+.bus-seats div.seatCharts-seat.selected {
+	background-color: #0F4B8A;
+}
+.bus-seats div.seatCharts-seat.unavailable {
+	background-color:  #C70039;
+}

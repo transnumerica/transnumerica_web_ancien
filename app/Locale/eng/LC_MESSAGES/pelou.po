@@ -1,0 +1,690 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2015-07-16 15:04+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.2\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: Config/core.php:64
+msgid "Livraison normale ( 3 a 5 jours ouvrables )"
+msgstr "Warehouse (3 to 5 days)"
+
+#: Config/core.php:68
+msgid "Livraison gratuite (3 à 5 jours ouvrables )"
+msgstr "Free shipping (3-5 days)"
+
+#: Config/core.php:73
+msgid "Livraison express (24h à 48h )"
+msgstr "Express delivery (24h to 48h)"
+
+#: Config/core.php:82
+msgid "Paiement Carte Bancaire via paypal (5% de Remise)"
+msgstr "Payment Credit Card via Paypal (5% Discount)"
+
+#: Config/core.php:87
+msgid "Paiement par M-Pesa via Vodacom"
+msgstr "Payment via Vodacom M-Pesa"
+
+#: Config/core.php:93
+msgid "Paiement Cash à la Reception"
+msgstr "Payment Cash at the Reception"
+
+#: Controller/AppController.php:49
+msgid "Veuillez vous connecter pour poursuivre."
+msgstr "Please login to continue."
+
+#: Controller/AppController.php:123
+msgid "Erreur, veuillez remplir les champs correctement"
+msgstr "Error, please fill in the fields correctly"
+
+#: Controller/AppController.php:125
+msgid "Le formulaire a expiré, Veuillez réessayer"
+msgstr "The form has expired, please try again"
+
+#: Controller/AppController.php:127
+msgid "Erreur, veuillez remplir les champs correctement (%s)"
+msgstr "Error, please fill in the fields correctly (%s)"
+
+#: Controller/AppController.php:268
+msgid "L'article \"<b>%s</b>\" est déjà présent dans le panier"
+msgstr "The article \"<b>%s </ b>\" is already in the basket"
+
+#: Controller/AppController.php:271
+msgid "L'article \"<b>%s</b>\" a été ajouter dans le panier"
+msgstr "The article \"<b>%s </ b>\" has been added to the basket"
+
+#: Controller/AppController.php:288
+msgid "Le Magasin selectionné n'existe pas ou n'est plus disponible"
+msgstr "Store selected does not exist or is no longer available"
+
+#: Controller/AppController.php:291
+msgid "Vous etes deja à %s"
+msgstr "You are already in%s"
+
+#: Controller/AppController.php:296
+#: Controller/Component/OperationComponent.php:291
+msgid "Vous etes dans le Magasin \"<b>%s</b>\""
+msgstr "You are in the Store \"<b>%s </b>\""
+
+#: Controller/CompteController.php:348
+msgid "Desolé, les inscriptions ne marche pas pour le moment"
+msgstr "Sorry, Enrollment does not work for the moment"
+
+#: Controller/CompteController.php:353
+msgid "Vous êtes déjà inscrit et connecté!"
+msgstr "Already registered and logged in!"
+
+#: Controller/CompteController.php:377
+msgid "Votre compte a été crée, Connectez-vous pour valider votre..."
+msgstr "Your account has been created, log in to validate your ..."
+
+#: Controller/CompteController.php:382
+msgid "Votre compte n'a pas pu être créé. S'il vous plaît, essayez de nouveau!"
+msgstr "Your account could not be created. Please, try again!"
+
+#: Controller/CompteController.php:392
+msgid "Vous etes déjà connectés, veuillez d'abord vous deconneter ..."
+msgstr ""
+"Vous etes déjà connectés, veuillez d'abord vous deconneter ...Essayez avec "
+"cette orthographe : Vous etes déjà connectés, veuillez d'abord vous "
+"connecter ...You are already connected, please first log out ..."
+
+#: Controller/CompteController.php:454
+msgid "Adresse E-mail ou/et mot de passe invalide, réessayer"
+msgstr "E-mail address and / or password pair, try again"
+
+#: Controller/PanierController.php:151;192
+msgid "Erreur, veuillez verifiez vos informations ou réessayer plutard..."
+msgstr "Error, please review the information again later or try again ..."
+
+#: Controller/PanierController.php:240
+msgid "L'article a été modifié ..."
+msgstr "The article was modified ..."
+
+#: Controller/PanierController.php:267
+msgid ""
+"Merci de patienter pendant que nous traitons votre commande, Vous serez "
+"rediriger vers PayPal ..."
+msgstr ""
+"Thank you for your patience while we process your order you will be "
+"redirected to PayPal ..."
+
+#: View/Compte/connexion.ctp:4
+msgid "Nouveaux clients"
+msgstr "New customers"
+
+#: View/Compte/connexion.ctp:5
+msgid ""
+"En créant un compte sur notre boutique, vous pouvez passer vos commandes "
+"plus rapidement, enregistrer plusieurs adresses de livraison, consulter et "
+"suivre vos commandes, et plein d'autres choses encore"
+msgstr ""
+"By creating an account with our store, you can place your order faster, "
+"store multiple shipping addresses, view and track your orders and many other "
+"things"
+
+#: View/Compte/connexion.ctp:14
+msgid "Clients enregistrés"
+msgstr "registered Customers"
+
+#: View/Compte/connexion.ctp:15
+msgid "Si vous avez déjà un compte, veuillez vous identifier"
+msgstr "If you already have an account, please log in"
+
+#: View/Compte/connexion.ctp:19 View/Panier/commander.ctp:24
+msgid "Adresse e-mail"
+msgstr "E-mail"
+
+#: View/Compte/connexion.ctp:20 View/Compte/inscription.ctp:20
+msgid "Mot de passe"
+msgstr "Password"
+
+#: View/Compte/connexion.ctp:22
+msgid "Se rappeler de moi"
+msgstr "Remember me"
+
+#: View/Compte/connexion.ctp:23
+msgid "J'ai oublié mon mot de passe"
+msgstr "I forgot my password"
+
+#: View/Compte/inscription.ctp:3
+msgid "Qui etes vous?"
+msgstr "Who are you?"
+
+#: View/Compte/inscription.ctp:8 View/Panier/commander.ctp:19
+msgid "Prenom"
+msgstr "First name"
+
+#: View/Compte/inscription.ctp:10 View/Panier/commander.ctp:21
+msgid "Nom"
+msgstr "Name"
+
+#: View/Compte/inscription.ctp:12
+msgid "Magasin"
+msgstr "Store"
+
+#: View/Compte/inscription.ctp:12
+msgid "Veuillez choisir votre magasin préferer"
+msgstr "Please select your store prefer"
+
+#: View/Compte/inscription.ctp:16
+msgid "Votre compte"
+msgstr "Your account"
+
+#: View/Compte/inscription.ctp:18
+msgid "Adresse e-mail (Comme identifiant)"
+msgstr "E-mail (as login)"
+
+#: View/Compte/inscription.ctp:21
+msgid "Confirmer le mot de passe"
+msgstr "Confirm password"
+
+#: View/Compte/inscription.ctp:24
+msgid "Abonnez-vous à la newsletter"
+msgstr "Subscribe to newsletter"
+
+#: View/Compte/inscription.ctp:26
+msgid "Conditions d'utilisation"
+msgstr "Subscribe to newsletter"
+
+#: View/Compte/inscription.ctp:27
+msgid "J'ai lu et accepté les  "
+msgstr "I have read and accepted the"
+
+#: View/Compte/inscription.ctp:29 View/Panier/commander.ctp:228
+#: View/Panier/drive.ctp:152
+msgid "Valider"
+msgstr "Validate"
+
+#: View/Elements/Menu.ctp:11
+msgid "Deconnexion"
+msgstr "Logout"
+
+#: View/Elements/Menu.ctp:15
+msgid "Mon Compte"
+msgstr "My Account"
+
+#: View/Elements/Menu.ctp:18
+msgid "Connexion"
+msgstr "Login"
+
+#: View/Elements/Menu.ctp:25
+msgid "Nos Magasins"
+msgstr "Our shops"
+
+#: View/Elements/Menu.ctp:28
+msgid "Bienvenue"
+msgstr "Welcome"
+
+#: View/Elements/Menu.ctp:31
+msgid "Le top vente"
+msgstr "Top Sales"
+
+#: View/Elements/Menu.ctp:32
+msgid "Course rapide"
+msgstr "Fast Run"
+
+#: View/Elements/Menu.ctp:33
+msgid "Guides et conseils"
+msgstr "Help and Advice"
+
+#: View/Elements/Menu.ctp:34
+msgid "Contact"
+msgstr "Contact"
+
+#: View/Elements/Menu.ctp:39
+msgid "Rechercher..."
+msgstr "Find ..."
+
+#: View/Elements/note.ctp:2
+msgid "Notes du rayon"
+msgstr "Shelf Notes"
+
+#: View/Elements/Articles/trier.ctp:9
+msgid "par page"
+msgstr "per page"
+
+#: View/Elements/Articles/trier.ctp:14
+msgid "Afficher"
+msgstr "Show"
+
+#: View/Elements/Articles/vitrine.ctp:8 View/Elements/Recettes/show.ctp:3
+msgid ""
+"Page: {:page} sur {:pages} | Article: {:start} à {:end} sur {:count} "
+"Articles |"
+msgstr ""
+"Page: {:page} of {:pages} | Article: {:start} à {:end} of {:count} Articles |"
+
+#: View/Elements/Articles/vitrine.ctp:10 View/Elements/Recettes/show.ctp:5
+msgid "Precedent"
+msgstr "Previous"
+
+#: View/Elements/Articles/vitrine.ctp:18 View/Elements/Recettes/show.ctp:13
+msgid "Suivant"
+msgstr "Next"
+
+#: View/Elements/Magasin/selectionner.ctp:51
+msgid "ACCEDER"
+msgstr "ACCESS"
+
+#: View/Elements/Panier/total.ctp:4
+msgid "Total de la commande"
+msgstr "Order Total"
+
+#: View/Elements/Panier/total.ctp:5
+msgid "Sous-total"
+msgstr "Subtotal"
+
+#: View/Elements/Panier/total.ctp:10
+msgid "Remise (%s) : %s Fc"
+msgstr "Discount (%s) : %s Fc"
+
+#: View/Elements/Panier/total.ctp:17
+msgid "Total HT : %s Fc"
+msgstr "Net Price : %s Fc"
+
+#: View/Elements/Panier/total.ctp:18
+msgid "Total TTC : %s Fc"
+msgstr "Price Incl. : %s Fc"
+
+#: View/Elements/Panier/SousPanier/panier.ctp:4
+msgid "Panier (%s)"
+msgstr "Cart (%s)"
+
+#: View/Elements/Panier/SousPanier/panier.ctp:13
+msgid "Votre panier est vide..."
+msgstr "Your basket is empty ..."
+
+#: View/Elements/Panier/SousPanier/panier.ctp:72
+msgid "Sous-total du panier : "
+msgstr "Basket subtotal:"
+
+#: View/Elements/Rayons/rayons.ctp:4
+msgid "NOS RAYONS"
+msgstr "OUR SHELFS"
+
+#: View/Elements/Rayons/rayonspeciaux.ctp:3
+msgid "RECETTES"
+msgstr "RECIPES"
+
+#: View/Elements/Rayons/rayonspeciaux.ctp:5
+msgid "Livre de cuisine et tendance"
+msgstr "Cookbook and trendy"
+
+#: View/Elements/Rayons/rayonspeciaux.ctp:9
+msgid "FETE DES MERES"
+msgstr "MOTHERS 'DAY"
+
+#: View/Elements/Rayons/rayonspeciaux.ctp:12
+msgid "COUP DE COEUR"
+msgstr "FAVORITE"
+
+#: View/Elements/Rayons/rayonspeciaux.ctp:14
+msgid "PROMOS"
+msgstr "DEALS"
+
+#: View/Elements/Rayons/rayonspeciaux.ctp:16
+msgid "NOUVEAUTÉS"
+msgstr "NOVELTY"
+
+#: View/Elements/Rayons/rayonspeciaux.ctp:27
+msgid "DESTOCKAGE"
+msgstr "DESTOCKING"
+
+#: View/Elements/Recettes/show.ctp:56
+msgid "Quantité"
+msgstr "Quantity"
+
+#: View/Elements/Recettes/show.ctp:56 View/Rayons/showrecette.ctp:19
+msgid "Personne(s)"
+msgstr "Person(s)"
+
+#: View/Elements/Recettes/show.ctp:57
+msgid "Préparation"
+msgstr "Preparation"
+
+#: View/Elements/Recettes/show.ctp:58
+msgid "Cuisson"
+msgstr "Cooking time"
+
+#: View/Elements/Recettes/show.ctp:59
+msgid "Niveau de difficulté"
+msgstr "Difficulty level"
+
+#: View/Panier/choisirmagasin.ctp:2;4 View/Panier/vide.ctp:4
+msgid "Panier"
+msgstr "Basket"
+
+#: View/Panier/choisirmagasin.ctp:4 View/Panier/index.ctp:13
+#: View/Panier/vide.ctp:4 View/Rayons/article.ctp:4
+#: View/Rayons/coup_de_coeur.ctp:5 View/Rayons/destockage.ctp:5
+#: View/Rayons/moins.ctp:3 View/Rayons/nouveautes.ctp:5
+#: View/Rayons/promos.ctp:5 View/Rayons/rayon.ctp:10 View/Rayons/rayon2.ctp:9
+#: View/Rayons/rayon3.ctp:9 View/Rayons/rayon4.ctp:9 View/Rayons/rayon5.ctp:9
+#: View/Rayons/recettes.ctp:7;9 View/Rayons/showrecette.ctp:5
+msgid "Accueil"
+msgstr "Home"
+
+#: View/Panier/choisirmagasin.ctp:10;17
+msgid "Veuillez choisir un magasin :"
+msgstr "Choose a store:"
+
+#: View/Panier/choisirmagasin.ctp:19
+msgid ""
+"<p>Nous vous afficherons les articles choisies et leur disponibilité, afin "
+"de vous fournir un meilleur service de qualité</p>\n"
+"<p>Beneficier de nos services drive et HomeShop, et de beaucoup de "
+"reduction</p>"
+msgstr ""
+"<p>We will post you your chosen items and their availability to provide you "
+"a better quality of service</p>\n"
+"<p>Benefit from our services and drive HomeShop, and many discount</p>"
+
+#: View/Panier/commander.ctp:9
+msgid "Adresse de livraison"
+msgstr "Delivery address"
+
+#: View/Panier/commander.ctp:15
+msgid ""
+"Choisissez une adresse de livraison dans votre carnet d'adresses ou "
+"saisissez une nouvelle adresse"
+msgstr "Choose a shipping address in your address book or enter a new address"
+
+#: View/Panier/commander.ctp:26;40
+msgid "Téléphone"
+msgstr "Phone"
+
+#: View/Panier/commander.ctp:28
+msgid "Commune"
+msgstr "Town"
+
+#: View/Panier/commander.ctp:28
+msgid "(Choississez)"
+msgstr "(Choose)"
+
+#: View/Panier/commander.ctp:32
+msgid "Adresse"
+msgstr "Address"
+
+#: View/Panier/commander.ctp:34
+msgid "Sauvegarder dans le carnet d'adresses"
+msgstr "Save in address book"
+
+#: View/Panier/commander.ctp:36
+msgid ""
+"Si vous avez une autre personne de confiance ou si vous voulez offrir à "
+"quelqu'un</p><p>Veuillez saisir ses informatitions (Facultative)."
+msgstr ""
+"If you have another trusted person or want to offer someone </ p> <p> Please "
+"enter his informatitions (Optional)."
+
+#: View/Panier/commander.ctp:38
+msgid "Nom complet"
+msgstr "Full name"
+
+#: View/Panier/commander.ctp:42
+msgid "Commande Cadeau?"
+msgstr "Ordering Gift?"
+
+#: View/Panier/commander.ctp:142
+msgid "Mode de livraison"
+msgstr "Delivery method"
+
+#: View/Panier/commander.ctp:150;165 View/Panier/drive.ctp:77
+msgid "%s"
+msgstr "%s"
+
+#: View/Panier/commander.ctp:160 View/Panier/drive.ctp:72
+msgid "Mode de paiement"
+msgstr "Payment method"
+
+#: View/Panier/commander.ctp:177 View/Panier/drive.ctp:101
+msgid "Vérifiez votre commande"
+msgstr "Review your order"
+
+#: View/Panier/commander.ctp:187 View/Panier/drive.ctp:111
+#: View/Panier/index.ctp:75
+msgid "METTRE A JOUR LE PANIER"
+msgstr "UPDATE CART"
+
+#: View/Panier/commander.ctp:225 View/Panier/drive.ctp:149
+msgid "Vous abonnez aux Newsletter"
+msgstr "Subscribe to Newsletter"
+
+#: View/Panier/drive.ctp:10
+msgid "Mon Horraire"
+msgstr "My Schedule"
+
+#: View/Panier/drive.ctp:49;53;55
+msgid "à partir de"
+msgstr "from"
+
+#: View/Panier/drive.ctp:49
+msgid "à"
+msgstr "to"
+
+#: View/Panier/index.ctp:23
+msgid "Les articles suivant sont épuisés : "
+msgstr "The following items are exhausted :"
+
+#: View/Panier/index.ctp:35
+msgid "pour voir quel magasin vous conviendra le mieux ou "
+msgstr "to see which shop is best for you, or"
+
+#: View/Panier/index.ctp:38
+msgid "vider les articles épuisés!"
+msgstr "empty articles exhausted!"
+
+#: View/Panier/index.ctp:42
+msgid ""
+"<p>(Au cas d’un \"Home Shopping\", Il n’y a pas de soucis.<br/>\n"
+"Si elle est disponible dans d’autre magasin Mais cela entrainera des taxes "
+"supplémentaires de frais de transport).</p>\n"
+"<p>N.B: Notre agent de confirmation vous appellera pour vous confirmer de "
+"l’existence des produits expirés.</p>"
+msgstr ""
+"<p>(In case of a \"Home Shopping \" There are no worries. <br/>\n"
+"If it is available in another store But this will result in additional taxes "
+"in transport costs). </p>\n"
+"<p>Note: Our confirmation agent will call you to confirm the existence of "
+"expired products </p>."
+
+#: View/Panier/index.ctp:58
+msgid "NOM DU PRODUIT"
+msgstr "PRODUCT NAME"
+
+#: View/Panier/index.ctp:60
+msgid "PRIX UNITAIRE"
+msgstr "UNIT PRICE"
+
+#: View/Panier/index.ctp:61
+msgid "QTÉ"
+msgstr "QTY"
+
+#: View/Panier/index.ctp:62
+msgid "TOTAL"
+msgstr "TOTAL"
+
+#: View/Panier/index.ctp:63
+msgid "SUPPRIMER"
+msgstr "DELETE"
+
+#: View/Panier/index.ctp:73
+msgid "VIDER LE PANIER"
+msgstr "EMPTY CART"
+
+#: View/Panier/index.ctp:80
+msgid "RETOUR A LA BOUTIQUE"
+msgstr "BACK TO THE SHOP"
+
+#: View/Panier/index.ctp:101
+msgid "Code Promo"
+msgstr "Promo Code"
+
+#: View/Panier/index.ctp:105
+msgid "Ce Coupon de reduction n'est pas valide"
+msgstr "This discount coupon is not valid"
+
+#: View/Panier/index.ctp:108
+msgid "UTILISER UN BON DE REDUCTION"
+msgstr "USE DISCOUNT COUPON"
+
+#: View/Panier/index.ctp:122
+msgid "Commander"
+msgstr "Order"
+
+#: View/Rayons/coup_de_coeur.ctp:7
+msgid "Coup de Coeur"
+msgstr "Favorite"
+
+#: View/Rayons/destockage.ctp:7
+msgid "Destockage"
+msgstr "Destocking"
+
+#: View/Rayons/recettes.ctp:9 View/Rayons/showrecette.ctp:5
+msgid "Recettes"
+msgstr "Receipts"
+
+#: View/Rayons/recettes.ctp:13
+msgid ""
+"Retrouvez les necessaires et les dernières nouveautés en matière "
+"d'alimentation, de gastronomie et des nouvelles saveur, pour tous gourmands, "
+"savent s'abstenir"
+msgstr ""
+"Find the necessary and the latest in food, gastronomy and new flavor for all "
+"food lovers, know refrain"
+
+#: View/Rayons/showrecette.ctp:17
+msgid "Temps de préparation"
+msgstr "Preparation time"
+
+#: View/Rayons/showrecette.ctp:18
+msgid "Temps de cuisson"
+msgstr "Cooking time"
+
+#: View/Rayons/showrecette.ctp:19
+msgid "pour"
+msgstr "for"
+
+#: Model/Adresses.php:validation for field id
+msgid "Erreur, veuillez renseigner ce champ correctement"
+msgstr "Error, Please complete this field correctly"
+
+#: Model/Adresses.php:validation for field prenom Model/Compte.php:validation
+msgid "Veuillez entrer un prénom conforme..."
+msgstr "Please enter a first name conforms ..."
+
+#: Model/Adresses.php:validation for field nom;validation nom2
+#: Model/Compte.php:validation nom
+msgid "Veuillez entrer un nom conforme..."
+msgstr "Please enter a name conforms ..."
+
+#: Model/Adresses.php:validation for field nom2
+msgid ""
+"Vous ne pouvez pas laisser ce champ vide tant que vous avez saisi un numero "
+"de telephone"
+msgstr "You can not leave this field empty as you have entered a phone number"
+
+#: Model/Adresses.php:validation for field nom2;validation tel;validation tel2
+msgid "S'il vous plaît, indiquez un numero de telephone valide..."
+msgstr "Please, enter a valid phone number ..."
+
+#: Model/Adresses.php:validation for field email Model/Compte.php:validation
+msgid "S'il vous plaît, indiquez une adresse email valide..."
+msgstr "Please, enter a valid email address ..."
+
+#: Model/Adresses.php:validation for field tel;validation tel2
+msgid "Veuillez entrer un numero conforme..."
+msgstr "Please enter a number in line ..."
+
+#: Model/Adresses.php:validation for field tel2
+msgid ""
+"Vous ne pouvez pas laisser ce champ vide tant que vous avez saisi un nom"
+msgstr "You can not leave this field empty as you have entered a name"
+
+#: Model/Adresses.php:validation for field adresse
+msgid "Veuillez nous fournir plus d'information SVP"
+msgstr "Please provide us with more information please"
+
+#: Model/Articles.php:validation for field nom Model/Rayons.php:validation
+msgid "Desolé mais ce nom d'utilisateur est deja utilisé"
+msgstr "Sorry but this username is already used"
+
+#: Model/Articles.php:validation for field prix Model/Quantites.php:validation
+#: qte
+msgid "Chiffres uniquement !"
+msgstr "Numbers only!"
+
+#: Model/Articles.php:validation for field prixS
+msgid "Veuillez fournir un motant inferieur au prix "
+msgstr "Please provide a lower price motant"
+
+#: Model/Commandes.php:validation for field livraison
+msgid "Veuillez selectionnez un mode de livraison valide"
+msgstr "Please select a valid delivery method"
+
+#: Model/Commandes.php:validation for field paiement
+#: Model/Drives.php:validation
+msgid "Veuillez selectionnez un mode de paiement valide"
+msgstr "Please select a valid payment method"
+
+#: Model/Compte.php:validation for field magasins_id
+#: Model/Drives.php:validation recuperation
+msgid "Vous devez specifier votre magasin préferer"
+msgstr "You must specify your store prefer"
+
+#: Model/Compte.php:validation for field email
+msgid "Cet e-mail est déjà utilisée ..."
+msgstr "This email is already in use ..."
+
+#: Model/Compte.php:validation for field password
+msgid "Le mot de passe doit comporter au moins 6 caractères."
+msgstr "The password must be at least 6 characters."
+
+#: Model/Compte.php:validation for field password
+msgid "Les mots de passe ne correspondent pas!"
+msgstr "Passwords do not match!"
+
+#: Model/Compte.php:validation for field passwd
+msgid "Vous devez confirmer votre mot de passe!"
+msgstr "You must confirm your password!"
+
+#: Model/Compte.php:validation for field tos
+msgid "Vous devez accepter les conditions d'utilisation!"
+msgstr "You must accept the terms of use!"
+
+#: Model/Relation.php:validation for field rayons_id
+msgid "L'article ne peut pas s'associer avec un menu parent"
+msgstr "The item can not be associated with a parent menu"
+
+#~ msgid "Paiement Carte Bancaire via paypal ( 5% DE REMISE )"
+#~ msgstr "Payment Credit Card via PayPal (5% DISCOUNT)"
+
+#~ msgid "Paiement Cash à la livraison"
+#~ msgstr "Cash payment on delivery"
+
+#~ msgid "Vous etes dans le Magasin %s"
+#~ msgstr "You are in the %s Store"
+
+#~ msgid "personnes"
+#~ msgstr "person"
+
+#~ msgid ""
+#~ "En créant un compte sur notre boutique, vous pourrez passer vos commandes "
+#~ "plus rapidement, enregistrer plusieurs adresses de livraison, consulter "
+#~ "et suivre vos commandes, et plein d'autres choses encore"
+#~ msgstr ""
+#~ "By creating an account with our store, you can place your order faster, "
+#~ "store multiple shipping addresses, view and track your orders and many "
+#~ "other things"
+
+#~ msgid "F.T DES MERES"
+#~ msgstr "HAPPY MOMMY"

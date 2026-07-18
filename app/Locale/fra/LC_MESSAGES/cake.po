@@ -1,0 +1,351 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: CakePHP\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Etienne Lamoureux <etienne.lamoureux@crystalgorithm.com>\n"
+"Language-Team: Cakephp-fr.org <contact@cakephp-fr.org>\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 1.7.5\n"
+
+#: Lib/Utility/CakeTime.php:397
+msgid "Today, %s"
+msgstr "Aujourd'hui, %s"
+
+#: Lib/Utility/CakeTime.php:400
+msgid "Yesterday, %s"
+msgstr "Hier, %s"
+
+#: Lib/Utility/CakeTime.php:403
+msgid "Tomorrow, %s"
+msgstr "Demain, %s"
+
+#: Lib/Utility/CakeTime.php:408
+msgid "Sunday"
+msgstr "Dimanche"
+
+#: Lib/Utility/CakeTime.php:409
+msgid "Monday"
+msgstr "Lundi"
+
+#: Lib/Utility/CakeTime.php:410
+msgid "Tuesday"
+msgstr "Mardi"
+
+#: Lib/Utility/CakeTime.php:411
+msgid "Wednesday"
+msgstr "Mercredi"
+
+#: Lib/Utility/CakeTime.php:412
+msgid "Thursday"
+msgstr "Jeudi"
+
+#: Lib/Utility/CakeTime.php:413
+msgid "Friday"
+msgstr "Vendredi"
+
+#: Lib/Utility/CakeTime.php:414
+msgid "Saturday"
+msgstr "Samedi"
+
+#: Lib/Utility/CakeTime.php:420
+msgid "On %s %s"
+msgstr "Le %s %s"
+
+#: Lib/Utility/CakeTime.php:743
+msgid "%s ago"
+msgstr "il y a %s"
+
+#: Lib/Utility/CakeTime.php:702
+msgid "and"
+msgstr "et"
+
+#: Lib/Utility/CakeTime.php:744
+msgid "in %s"
+msgstr "dans %s"
+
+#: Lib/Utility/CakeTime.php:745
+msgid "on %s"
+msgstr "le %s"
+
+#: Lib/Utility/CakeTime.php:801
+msgid "just now"
+msgstr "à l'instant"
+
+#: Lib/Utility/CakeTime.php:924
+msgid "in about a second"
+msgstr "dans environ une seconde"
+
+#: Lib/Utility/CakeTime.php:925
+msgid "in about a minute"
+msgstr "dans environ une minute"
+
+#: Lib/Utility/CakeTime.php:926
+msgid "in about an hour"
+msgstr "dans environ une heure"
+
+#: Lib/Utility/CakeTime.php:927
+msgid "in about a day"
+msgstr "dans environ un jour"
+
+#: Lib/Utility/CakeTime.php:928
+msgid "in about a week"
+msgstr "dans environ une semaine"
+
+#: Lib/Utility/CakeTime.php:929
+msgid "in about a year"
+msgstr "dans environ un an"
+
+#: Lib/Utility/CakeTime.php:933
+msgid "about a second ago"
+msgstr "il y a environ une seconde"
+
+#: Lib/Utility/CakeTime.php:934
+msgid "about a minute ago"
+msgstr "il y a environ une minute"
+
+#: Lib/Utility/CakeTime.php:935
+msgid "about an hour ago"
+msgstr "il y a environ une heure"
+
+#: Lib/Utility/CakeTime.php:936
+msgid "about a day ago"
+msgstr "il y a environ un jour"
+
+#: Lib/Utility/CakeTime.php:937
+msgid "about a week ago"
+msgstr "il y a environ une semaine"
+
+#: Lib/Utility/CakeTime.php:938
+msgid "about a year ago"
+msgstr "il y a environ un an"
+
+#: Lib/Utility/CakeTime.php:958;980
+msgid "days"
+msgstr "jours"
+
+#: Lib/Utility/CakeTime.php:895
+msgid "%d year"
+msgid_plural "%d years"
+msgstr[0] "%d année"
+msgstr[1] "%d années"
+
+#: Lib/Utility/CakeTime.php:898
+msgid "%d month"
+msgid_plural "%d months"
+msgstr[0] "%d mois"
+msgstr[1] "%d mois"
+
+#: Lib/Utility/CakeTime.php:901
+msgid "%d week"
+msgid_plural "%d weeks"
+msgstr[0] "%d semaine"
+msgstr[1] "%d semaines"
+
+#: Lib/Utility/CakeTime.php:904
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] "%d jour"
+msgstr[1] "%d jours"
+
+#: Lib/Utility/CakeTime.php:907
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] "%d heure"
+msgstr[1] "%d heures"
+
+#: Lib/Utility/CakeTime.php:910
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "%d minute"
+msgstr[1] "%d minutes"
+
+#: Lib/Utility/CakeTime.php:913
+msgid "%d second"
+msgid_plural "%d seconds"
+msgstr[0] "%d seconde"
+msgstr[1] "%d secondes"
+
+#: View/Errors/error400.ctp:12
+msgid "The requested address %s was not found on this server."
+msgstr "L'adrese demandée %s est introuvable."
+
+#~ msgid "Error"
+#~ msgstr "Erreur"
+
+#~ msgid "An Internal Error Has Occurred."
+#~ msgstr "Une erreur interne s'est produite."
+
+#~ msgid "Scaffold :: "
+#~ msgstr "Scaffold :: "
+
+#~ msgid "Invalid %s"
+#~ msgstr "%s invalide"
+
+#~ msgid "updated"
+#~ msgstr "mis à jour"
+
+#~ msgid "saved"
+#~ msgstr "sauvegardé"
+
+#~ msgid "The %1$s has been %2$s"
+#~ msgstr "Le %1$s a été %2$s"
+
+#~ msgid "Please correct errors below."
+#~ msgstr "Merci de corriger les erreurs ci-dessous."
+
+#~ msgid "The %1$s with id: %2$s has been deleted."
+#~ msgstr "Le %1$s ayant pour id : %2$d a été supprimé."
+
+#~ msgid "There was an error deleting the %1$s with id: %2$s"
+#~ msgstr "Une erreur est survenue lors de la suppression de %1$s ayant pour id : %2$d"
+
+#~ msgid "You are not authorized to access that location."
+#~ msgstr "Vous n'êtes pas autorisé à accéder à cet endroit."
+
+#~ msgid "Not Found"
+#~ msgstr "Introuvable"
+
+#~ msgid "This field cannot be left blank"
+#~ msgstr "Ce champ ne peut être vide"
+
+#~ msgid "The requested file was not found"
+#~ msgstr "Le fichier demandé est introuvable"
+
+#~ msgid "%s KB"
+#~ msgstr "%s Ko"
+
+#~ msgid "%s MB"
+#~ msgstr "%s Mo"
+
+#~ msgid "%s GB"
+#~ msgstr "%s Go"
+
+#~ msgid "%s TB"
+#~ msgstr "%s To"
+
+#~ msgid "%d Byte"
+#~ msgid_plural "%d Bytes"
+#~ msgstr[0] "%d Octet"
+#~ msgstr[1] "%d Octets"
+
+#~ msgid "Error in field %s"
+#~ msgstr "Erreur dans le champ %s"
+
+#~ msgid "New %s"
+#~ msgstr "Nouveau %s"
+
+#~ msgid "Edit %s"
+#~ msgstr "Editer %s"
+
+#~ msgid "empty"
+#~ msgstr "vide"
+
+#~ msgid "Submit"
+#~ msgstr "Envoyer"
+
+#~ msgid "January"
+#~ msgstr "Janvier"
+
+#~ msgid "February"
+#~ msgstr "Février"
+
+#~ msgid "March"
+#~ msgstr "Mars"
+
+#~ msgid "April"
+#~ msgstr "Avril"
+
+#~ msgid "May"
+#~ msgstr "Mai"
+
+#~ msgid "June"
+#~ msgstr "Juin"
+
+#~ msgid "July"
+#~ msgstr "Juillet"
+
+#~ msgid "August"
+#~ msgstr "Août"
+
+#~ msgid "September"
+#~ msgstr "Septembre"
+
+#~ msgid "October"
+#~ msgstr "Octobre"
+
+#~ msgid "November"
+#~ msgstr "Novembre"
+
+#~ msgid "December"
+#~ msgstr "Décembre"
+
+#~ msgid "Home"
+#~ msgstr "Accueil"
+
+#~ msgid " of "
+#~ msgstr " de "
+
+#~ msgid "Actions"
+#~ msgstr "Actions"
+
+#~ msgid "Delete"
+#~ msgstr "Supprimer"
+
+#~ msgid "Are you sure you want to delete # %s?"
+#~ msgstr "Êtes vous sûr de vouloir supprimer # %s ?"
+
+#~ msgid "List"
+#~ msgstr "Lister"
+
+#~ msgid "List %s"
+#~ msgstr "Lister %s"
+
+#~ msgid "View"
+#~ msgstr "Voir"
+
+#~ msgid "Edit"
+#~ msgstr "Modifier"
+
+#~ msgid "Page {:page} of {:pages}, showing {:current} records out of {:count} total, starting on record {:start}, ending on {:end}"
+#~ msgstr "Page {:page} de {:pages}, {:current} enregistrements sur un total de {:count}, à partir de l'enregistrement {:start}, jusqu'au {:end}"
+
+#~ msgid "previous"
+#~ msgstr "précédent"
+
+#~ msgid "next"
+#~ msgstr "suivant"
+
+#~ msgid "View %s"
+#~ msgstr "Voir %s"
+
+#~ msgid "Delete %s"
+#~ msgstr "Supprimer %s"
+
+#~ msgid "Related %s"
+#~ msgstr "Lié à %s"
+
+#~ msgid "%d KB"
+#~ msgstr "%d Ko"
+
+#~ msgid "%.2f MB"
+#~ msgstr "%.2f Mo"
+
+#~ msgid "%.2f GB"
+#~ msgstr "%.2f Go"
+
+#~ msgid "%.2f TB"
+#~ msgstr "%.2f To"
+
+#~ msgid "day"
+#~ msgstr "jour"
+
+#~ msgid "mon"
+#~ msgstr "mois"
+
+#~ msgid "Are you sure you want to delete"
+#~ msgstr "Etes-vous sûr de vouloir supprimer"

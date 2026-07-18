@@ -1,0 +1,181 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Media Plugin\n"
+"POT-Creation-Date: 2015-10-08 05:58+0100\n"
+"PO-Revision-Date: 2015-10-08 05:58+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: eng\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n>1;\n"
+"X-Generator: Poedit 1.8.5\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: Model/Media.php:46
+msgid "The model '%s' doesn't have a 'Media' Behaviour"
+msgstr "Le model '%s' n'a pas le comportement 'Media'"
+
+#: Model/Media.php:61
+msgid "You don't have the permission to upload this filetype (%s only)"
+msgstr "Vous ne pouvez pas uploader ce type de fichier (%s seulement)"
+
+#: Model/Media.php:69
+msgid "You can't send more than %d files"
+msgstr "Vous ne pouvez pas envoyer plus de %d fichiers"
+
+#: Model/Media.php:78
+msgid "The width is too big, it must be less than %dpx"
+msgstr "La largeur de l'image ne doit pas excéder %d px"
+
+#: Model/Media.php:82
+msgid "The height is too big, it must be less than %dpx"
+msgstr "La hauteur de l'image ne doit pas excéder %d px"
+
+#: Model/Media.php:90
+msgid "The file size is too big, %s max"
+msgstr "Le poid du fichier est trop important, %s max"
+
+#: View/Medias/index.ctp:5
+msgid "Upload a new file"
+msgstr "Envoyer un nouveau fichier"
+
+#: View/Medias/index.ctp:6
+msgid "Gallery"
+msgstr "Galerie"
+
+#: View/Medias/index.ctp:22
+msgid "Drop your files to upload"
+msgstr "Déposer votre fichier pour envoyer"
+
+#: View/Medias/index.ctp:113
+msgid "Do you really want to delete this file ?"
+msgstr "Voulez vous vraiment supprimer ce fichier ?"
+
+#: View/Medias/media.ctp:9
+msgid "About this file"
+msgstr "A propos de ce fichier"
+
+#: View/Medias/media.ctp:17
+msgid "Delete definitively"
+msgstr "Supprimer définitivement"
+
+#: View/Medias/media.ctp:24
+msgid "Is Online"
+msgstr "En ligne"
+
+#: View/Medias/media.ctp:24
+msgid "Title"
+msgstr "Titre"
+
+#: View/Medias/media.ctp:28
+msgid "Alt text"
+msgstr "Text Alternatif"
+
+#: View/Medias/media.ctp:32
+msgid "Target"
+msgstr "Cible du lien"
+
+#: View/Medias/media.ctp:36
+msgid "Alignment"
+msgstr "Alignement"
+
+#: View/Medias/media.ctp:39
+msgid "None"
+msgstr "Aucun"
+
+#: View/Medias/media.ctp:40
+msgid "Center"
+msgstr "Centrer"
+
+#: View/Medias/media.ctp:41
+msgid "Left"
+msgstr "Gauche"
+
+#: View/Medias/media.ctp:42
+msgid "Right"
+msgstr "Droite"
+
+#: View/Medias/media.ctp:56
+msgid "Set as thumbnail"
+msgstr "Image à la une"
+
+#: View/Medias/media.ctp:60
+msgid "Insert into post"
+msgstr "Insérer dans l'article"
+
+#~ msgid "Le model '%s' n'a pas le comportement 'Media'"
+#~ msgstr "%s Model does not have Media behavior attached"
+
+#~ msgid "Vous ne pouvez pas uploader ce type de fichier (%s seulement)"
+#~ msgstr "You don't have the permission to upload this filetype"
+
+#~ msgid "Vous ne pouvez pas envoyer un fichier supérieur à %s"
+#~ msgstr "You can't send"
+
+#~ msgid "Nom du fichier"
+#~ msgstr "Filename"
+
+#~ msgid "Titre"
+#~ msgstr "Title"
+
+#~ msgid "Texte alternatif"
+#~ msgstr "Alt"
+
+#~ msgid "Cible du lien"
+#~ msgstr "Link"
+
+#~ msgid "Aucun"
+#~ msgstr "None"
+
+#~ msgid "Gauche"
+#~ msgstr "Left"
+
+#~ msgid "Droite"
+#~ msgstr "Right"
+
+#~ msgid "Insérer dans l'article"
+#~ msgstr "Insert"
+
+#~ msgid "Déplacer les fichiers ici"
+#~ msgstr "Drop files here"
+
+#~ msgid "ou"
+#~ msgstr "or"
+
+#~ msgid "Parcourir"
+#~ msgstr "Browse"
+
+#~ msgid "%s seulement"
+#~ msgstr "%s only"
+
+#~ msgid "Médias"
+#~ msgstr "Medias"
+
+#~ msgid "Actions"
+#~ msgstr "Actions"
+
+#~ msgid "Voulez vous vraiment supprimer ce média ?"
+#~ msgstr "Do you really want to delete this file ?"
+
+#~ msgid "Afficher"
+#~ msgstr "Show"
+
+#~ msgid "Cacher"
+#~ msgstr "Hide"
+
+#~ msgid "Mettre en image à la une"
+#~ msgstr "Use as thumbnail"
+
+#~ msgid "Supprimer"
+#~ msgstr "Delete"
+
+#~ msgid "Insérer le lien l'article"
+#~ msgstr "Insert"
+
+#~ msgid "Taille de l'image"
+#~ msgstr "Image size"

@@ -1,0 +1,1 @@
+{"client_user_id":"55","toleka_order_id":"198","distance":4.76,"categorie_prix":"ECO","source_latitude":"-4.4375038","source_longitude":"15.2596934","destination_latitude":"-4.401467509413571","destination_longitude":"15.254878532141447","amount":"1425.00","currency_symbol":"FC"}

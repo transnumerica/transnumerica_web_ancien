@@ -1,0 +1,596 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2012-06-06 16:09+0200\n"
+"PO-Revision-Date: 2015-04-01 02:53-0000\n"
+"Last-Translator: Mauro Zadunaisky <maurozadu@gmail.com>\n"
+"Language-Team: Plus Global <mauro@plusglobal.com> <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Language: fr_FR\n"
+"X-Generator: Poedit 1.7.5\n"
+
+#: Config\bootstrap.php:49
+msgid "Please provide a valid username and password"
+msgstr "Veuillez saisir votre nom d'utilisateur et votre mot de passe"
+
+#: Controller\BrownieController.php:35
+msgid "Username or password is incorrect"
+msgstr "Le nom d'utilisateur et/ou mot de passe est incorrect."
+
+#: Controller\ContentsController.php:190
+msgid "The %s has been saved [male]"
+msgstr "La table \"%s\" a été mise à jour"
+
+#: Controller\ContentsController.php:191
+msgid "The %s has been saved [female]"
+msgstr "La table \"%s\" a été mise à jour"
+
+#: Controller\ContentsController.php:199
+msgid "The %s could not be saved. Please, check the error messages.[male]"
+msgstr "Impossible d'enregistrer le document, veuillez vérifier les permissions et l'espace disque."
+
+#: Controller\ContentsController.php:200
+msgid "The %s could not be saved. Please, check the error messages.[female]"
+msgstr "Impossible d'enregistrer le document, veuillez vérifier les permissions et l'espace disque."
+
+#: Controller\ContentsController.php:260
+msgid "Successful delete"
+msgstr "Suppression réussie"
+
+#: Controller\ContentsController.php:262
+msgid "Unable to delete"
+msgstr "Impossible de supprimer"
+
+#: Controller\ContentsController.php:304
+msgid "No %s selected to delete"
+msgstr "Aucun%s sélectionnés pour supprimer"
+
+#: Controller\ContentsController.php:317
+msgid "%d %s deleted."
+msgstr "%d %s supprimé."
+
+#: Controller\ContentsController.php:320
+msgid "%d %s no deleted."
+msgstr "%d %s pas supprimé."
+
+#: Controller\ContentsController.php:357
+msgid "%s files saved"
+msgstr "%s fichés sauvegardés."
+
+#: Controller\ContentsController.php:358
+msgid "%s images saved"
+msgstr "L'image a bien été enregistrer"
+
+#: Controller\ContentsController.php:362
+msgid "No files saved"
+msgstr "Fichier non enregistré"
+
+#: Controller\ContentsController.php:363
+msgid "No images saved"
+msgstr "Aucune images enregistrées"
+
+#: Controller\ContentsController.php:392
+msgid "The file was deleted"
+msgstr "Le fichier a été supprimé"
+
+#: Controller\ContentsController.php:393
+msgid "The image was deleted"
+msgstr "L'image a été supprimée"
+
+#: Controller\ContentsController.php:397
+msgid "The file could not be deleted"
+msgstr "Le fichier n&#39;a pas pu être supprimé"
+
+#: Controller\ContentsController.php:398
+msgid "The image could not be deleted"
+msgstr "L'image n'a pas pu être supprimé"
+
+#: Controller\ContentsController.php:426
+msgid "The import could not be done. Please try again"
+msgstr "L'importation ne pourrait pas être faite. S'il vous plaît essayer de nouveau"
+
+#: Controller\ContentsController.php:440
+msgid "Warning: %s::brwImport() must be defined"
+msgstr "AVERTISSEMENT : %s::brwImport() doit être défini."
+
+#: Controller\ContentsController.php:484
+msgid "Successfully reordered"
+msgstr "Réorganisés avec succès"
+
+#: Controller\ContentsController.php:486
+msgid "Failed to reorder"
+msgstr "N'a pas pu réorganiser"
+
+#: Controller\ContentsController.php:589 View\Elements\form_filter.ctp:62
+msgid "Yes"
+msgstr "Oui"
+
+#: Controller\ContentsController.php:589 View\Elements\form_filter.ctp:62
+msgid "No"
+msgstr "Non"
+
+#: Controller\ContentsController.php:621
+msgid "Date not set"
+msgstr "Aucune date n'a été définie"
+
+#: Controller\ContentsController.php:630
+msgid "Datetime not set"
+msgstr "Pas la valeur DateTime"
+
+#: Controller\ContentsController.php:653
+msgid "After save"
+msgstr "Faire après l'enregistrement"
+
+#: Controller\ContentsController.php:655
+msgid "Back to where I was"
+msgstr "Revenir là où j'étais"
+
+#: Controller\ContentsController.php:657
+msgid "View saved %s [male]"
+msgstr "Voir le (l') %s sauvegardé "
+
+#: Controller\ContentsController.php:658
+msgid "View saved %s [female]"
+msgstr "Vue sauvé %s "
+
+#: Controller\ContentsController.php:661
+msgid "Add another %s [male]"
+msgstr "Ajouter un autre %s "
+
+#: Controller\ContentsController.php:662
+msgid "Add another %s [female]"
+msgstr "Ajouter un autre %s "
+
+#: Controller\ContentsController.php:665
+msgid "Go to to index of all %s [male]"
+msgstr "Afficher tous les %s "
+
+#: Controller\ContentsController.php:666
+msgid "Go to to index of all %s [female]"
+msgstr "Afficher tous les %s "
+
+#: Controller\ContentsController.php:669
+msgid "Continue editing this %s [male]"
+msgstr "Continuer d'éditer cet(te) %s "
+
+#: Controller\ContentsController.php:670
+msgid "Continue editing this %s [female]"
+msgstr "Continuer d'editer cet(te) %s "
+
+#: Controller\ContentsController.php:672
+msgid "Go home"
+msgstr "Revenir à l'accueil"
+
+#: Controller\ContentsController.php:685
+msgid "Go to the %s [male]"
+msgstr "Aller vers le %s "
+
+#: Controller\ContentsController.php:686
+msgid "Go to the %s [female]"
+msgstr "Aller vers le %s "
+
+#: Controller\Component\BrwPanelComponent.php:73
+msgid "Menu"
+msgstr "Menu"
+
+#: Model\Content.php:101
+msgid "This field is required"
+msgstr "Ce champ est obligatoire"
+
+#: Model\Content.php:112
+msgid "Please supply  a valid number"
+msgstr "Veuillez fournir un numéro valide"
+
+#: Model\Content.php:121
+msgid "Please supply a valid email address"
+msgstr "S'il vous plaît fournir une adresse email valide"
+
+#: Model\Content.php:128
+msgid "Incorrect value"
+msgstr "Valeur incorrecte"
+
+#: Model\Content.php:137
+msgid "This value must be unique and it's already in use by another %s [male]"
+msgstr "Cette valeur doit être unique et il est déjà utilisé par un autre %s "
+
+#: Model\Content.php:138
+msgid "This value must be unique and it's already in use by another %s [female]"
+msgstr "Cette valeur doit être unique et il est déjà utilisé par un autre %s "
+
+#: Model\Content.php:354 View\Contents\view.ctp:102
+msgid "Add"
+msgstr "Ajouter"
+
+#: Model\Content.php:355 View\Elements\file.ctp:10
+msgid "View"
+msgstr "Afficher"
+
+#: Model\Content.php:356 View\Elements\file.ctp:15 View\Elements\image.ctp:10
+msgid "Edit"
+msgstr "Modifier"
+
+#: Model\Content.php:357 View\Elements\file.ctp:20 View\Elements\image.ctp:14
+msgid "Delete"
+msgstr "Supprimer"
+
+#: Model\Content.php:358
+msgid "List all"
+msgstr "Afficher toute la table"
+
+#: Model\Content.php:378
+msgid "Are you sure you want to delete this %s?[male]"
+msgstr "Êtes-vous sûr de que vouloir supprimer ce %s ?"
+
+#: Model\Content.php:379
+msgid "Are you sure you want to delete this %s?[female]"
+msgstr "Êtes-vous sûr de que vouloir supprimer ce %s ?"
+
+#: Model\Behavior\BrwPanelBehavior.php:646
+msgid "Leave blank for no change"
+msgstr "Laissez vide pour aucun changement"
+
+#: Model\Behavior\BrwPanelBehavior.php:655;656
+#: View\Layouts\brownie_default.ctp:50
+msgid "User"
+msgstr "Utilisateur"
+
+#: Model\Behavior\BrwPanelBehavior.php:657 View\Layouts\brownie_default.ctp:46
+msgid "Users"
+msgstr "Utilisateurs"
+
+#: Model\Behavior\BrwPanelBehavior.php:747
+msgid "type = owned is valid only for models that belongsTo authModel (model: %s)"
+msgstr "type = propriété n'est valable que pour les modèles qui belongsTo authModel (modèle: % s)"
+
+#: Model\Behavior\BrwUploadBehavior.php:22
+msgid "File too heavy. Maximum allowed: %s KB (%s MB)"
+msgstr "Fichier trop lourd. Maximum autorisé : %s KB (%s Mo)"
+
+#: Model\Behavior\BrwUploadBehavior.php:30
+msgid "Invalid image. Only jpg, gif and png are allowed."
+msgstr "Image non valide. Seulement, jpg, gif et png sont autorisés."
+
+#: Model\Behavior\BrwUserBehavior.php:17
+msgid "Email already registered"
+msgstr "﻿L'e-mail est déjà enregistré."
+
+#: Model\Behavior\BrwUserBehavior.php:21
+msgid "Email not valid"
+msgstr "﻿L'adresse email n'est pas valable"
+
+#: Model\Behavior\BrwUserBehavior.php:27
+msgid "Email cannot be empty"
+msgstr "L'email ne peut pas être vide"
+
+#: Model\Behavior\BrwUserBehavior.php:34;41
+msgid "Password cannot be empty"
+msgstr "Mot de passe ne peut pas être vide"
+
+#: Model\Behavior\BrwUserBehavior.php:45
+msgid "Passwords do not match"
+msgstr "Les mots de passe ne correspondent pas"
+
+#: View\Brownie\login.ctp:3;15
+msgid "Login"
+msgstr "Me connecter"
+
+#: View\Brownie\login.ctp:6
+msgid "Welcome"
+msgstr "Bienvenue"
+
+#: View\Brownie\login.ctp:7
+msgid "Please provide your user and password."
+msgstr "Merci de fournir un mot de passe valide"
+
+#: View\Brownie\login.ctp:13
+msgid "Username"
+msgstr "Nom d'utilisateur"
+
+#: View\Brownie\login.ctp:14
+msgid "Password"
+msgstr "Mot de passe"
+
+#: View\Brownie\translations.ctp:1 View\Elements\translations.ctp:2
+#: View\Layouts\brownie_default.ctp:19
+msgid "Done"
+msgstr "Valider"
+
+#: View\Contents\add_images.ctp:11 View\Contents\edit_image.ctp:6
+msgid "Add image"
+msgstr "+Ajoutez une image"
+
+#: View\Contents\add_images.ctp:32 View\Contents\edit_image.ctp:19
+#: View\Contents\edit_upload.ctp:29
+msgid "Image"
+msgstr "Image"
+
+#: View\Contents\add_images.ctp:37 View\Contents\edit_image.ctp:28
+msgid "Image description"
+msgstr "Description de l'image"
+
+#: View\Contents\add_images.ctp:50 View\Contents\edit_file.ctp:42
+#: View\Contents\edit_image.ctp:39 View\Contents\import.ctp:24
+msgid "Submit"
+msgstr "Soumettre"
+
+#: View\Contents\edit.ctp:17 View\Elements\index.ctp:12
+msgid "Add :name_singular"
+msgstr "Ajouter :name_singular"
+
+#: View\Contents\edit.ctp:17
+msgid "Edit :name_singular"
+msgstr "Editer :name_singular"
+
+#: View\Contents\edit.ctp:48
+msgid "(No parent)"
+msgstr "(Aucun parent)"
+
+#: View\Contents\edit.ctp:130 View\Contents\edit_upload.ctp:38
+msgid "Description"
+msgstr "Description"
+
+#: View\Contents\edit.ctp:145
+msgid "Add Image"
+msgstr "Ajouter une image"
+
+#: View\Contents\edit.ctp:145
+msgid "Add File"
+msgstr "Ajouter un fichier"
+
+#: View\Contents\edit.ctp:163 View\Contents\edit_upload.ctp:43
+msgid "Save"
+msgstr "Sauvegarder"
+
+#: View\Contents\edit_file.ctp:6
+msgid "Add file"
+msgstr "Ajouter un fichier"
+
+#: View\Contents\edit_file.ctp:19 View\Contents\edit_upload.ctp:29
+msgid "File"
+msgstr "Fichier"
+
+#: View\Contents\edit_file.ctp:23 View\Contents\edit_upload.ctp:33
+msgid "You can leave the file field blank if you don't want to change the file"
+msgstr "Vous pouvez laisser le champ fichier vide si vous ne voulez pas modifier le fichier"
+
+#: View\Contents\edit_file.ctp:31
+msgid "File description"
+msgstr "Description du fichier"
+
+#: View\Contents\edit_image.ctp:21
+msgid "You can leave the Image field blank if you don't want to change the image"
+msgstr "Vous pouvez laisser le champ Image vide si vous ne voulez pas changer l'image"
+
+#: View\Contents\import.ctp:9
+msgid "Import :name_plural"
+msgstr "Importer :name_plural"
+
+#: View\Contents\view.ctp:11;13
+msgid "Previous"
+msgstr "Précédent"
+
+#: View\Contents\view.ctp:19;21
+msgid "Next"
+msgstr "Suivant"
+
+#: View\Contents\view.ctp:38;38
+msgid "Back"
+msgstr "Retour"
+
+#: View\Elements\file.ctp:13
+msgid "Download"
+msgstr "Télécharger"
+
+#: View\Elements\file.ctp:23
+msgid "Are you sure you want to delete this file?"
+msgstr "Êtes-vous sûr de vouloir supprimer ce fichier ?"
+
+#: View\Elements\form_filter.ctp:3
+msgid "The following listing is filtered."
+msgstr "La liste suivante est filtrée."
+
+#: View\Elements\form_filter.ctp:4
+msgid "View all"
+msgstr "Tout afficher"
+
+#: View\Elements\form_filter.ctp:49
+msgid "from"
+msgstr "à partir de"
+
+#: View\Elements\form_filter.ctp:52
+msgid "to"
+msgstr "à"
+
+#: View\Elements\form_filter.ctp:89
+msgid "Filter"
+msgstr "Filtre"
+
+#: View\Elements\image.ctp:17
+msgid "Are you sure you want to delete this image?"
+msgstr "Etes-vous sûr de vouloir supprimer cette image?"
+
+#: View\Elements\index.ctp:21
+msgid "Import"
+msgstr "Importer"
+
+#: View\Elements\index.ctp:27
+msgid "Export"
+msgstr "Exporter"
+
+#: View\Elements\index.ctp:66
+msgid "Delete selected"
+msgstr "Supprimer les lignes sélectionnées"
+
+#: View\Elements\index.ctp:81
+msgid "Select/Unselect all"
+msgstr "Tout sélectionner/désélectionner"
+
+#: View\Elements\index.ctp:107
+msgid "Sort"
+msgstr "Trier"
+
+#: View\Elements\index.ctp:110
+msgid "Actions"
+msgstr "Actions"
+
+#: View\Elements\index.ctp:152;154
+msgid "Sort up"
+msgstr "Tri vers le haut"
+
+#: View\Elements\index.ctp:156;158
+msgid "Sort down"
+msgstr "Tri vers le bas"
+
+#: View\Elements\index.ctp:180
+msgid "There are no %s"
+msgstr "Il n'y a aucun %s"
+
+#: View\Elements\pagination.ctp:8
+msgid "previous"
+msgstr "précédent"
+
+#: View\Elements\pagination.ctp:12
+msgid "next"
+msgstr "suivant"
+
+#: View\Elements\pagination.ctp:20
+msgid "Page %page% of %pages%, showing %current% :name_plural out of %count% total, starting on record %start%, ending on %end%"
+msgstr "Page %page%  sur %pages%, Affiche %current% :name_plural sur un total de %count%, à partir de l'enregistrement %start%, jusqu'à %end%"
+
+#: View\Elements\pagination.ctp:54
+msgid "%s per page"
+msgstr "%s par page"
+
+#: View\Elements\translations.ctp:3
+msgid "This field cannot be left blank"
+msgstr "Ce champ ne peut pas être vide"
+
+#: View\Elements\translations.ctp:6
+msgid "January"
+msgstr "Janvier"
+
+#: View\Elements\translations.ctp:7
+msgid "February"
+msgstr "Février"
+
+#: View\Elements\translations.ctp:8
+msgid "March"
+msgstr "Mars"
+
+#: View\Elements\translations.ctp:9
+msgid "April"
+msgstr "Avril"
+
+#: View\Elements\translations.ctp:10
+msgid "May"
+msgstr "Mai"
+
+#: View\Elements\translations.ctp:11
+msgid "June"
+msgstr "Juin"
+
+#: View\Elements\translations.ctp:12
+msgid "July"
+msgstr "Juillet"
+
+#: View\Elements\translations.ctp:13
+msgid "August"
+msgstr "Août"
+
+#: View\Elements\translations.ctp:14
+msgid "September"
+msgstr "Septembre"
+
+#: View\Elements\translations.ctp:15
+msgid "October"
+msgstr "Octobre"
+
+#: View\Elements\translations.ctp:16
+msgid "November"
+msgstr "Novembre"
+
+#: View\Elements\translations.ctp:17
+msgid "December"
+msgstr "Décembre"
+
+#: View\Elements\translations.ctp:20
+msgid "Brw User"
+msgstr "BRW Utilisateur"
+
+#: View\Elements\translations.ctp:21
+msgid "Add User"
+msgstr "Ajouter un utilisateur"
+
+#: View\Helper\i18nHelper.php:8
+msgid "Catalá"
+msgstr "Catalán"
+
+#: View\Helper\i18nHelper.php:9
+msgid "Portugues"
+msgstr "Portuguais"
+
+#: View\Helper\i18nHelper.php:10
+msgid "German"
+msgstr "Allemand"
+
+#: View\Helper\i18nHelper.php:11
+msgid "English"
+msgstr "Anglais"
+
+#: View\Helper\i18nHelper.php:12
+msgid "French"
+msgstr "Français"
+
+#: View\Helper\i18nHelper.php:13
+msgid "Italian"
+msgstr "Italien"
+
+#: View\Helper\i18nHelper.php:14
+msgid "Dutch"
+msgstr "Néerlandais"
+
+#: View\Helper\i18nHelper.php:15
+msgid "Spanish"
+msgstr "Espagnol"
+
+#: View\Layouts\brownie_default.ctp:16
+msgid "No records checked for deletion"
+msgstr "Aucun enregistrement vérifié pour la suppression"
+
+#: View\Layouts\brownie_default.ctp:17
+msgid "Select"
+msgstr "Sélectionner"
+
+#: View\Layouts\brownie_default.ctp:18
+msgid "Unselect"
+msgstr "Désélectionner"
+
+#: View\Layouts\brownie_default.ctp:20
+msgid "Show advanced filters"
+msgstr "Afficher les filtres avancés"
+
+#: View\Layouts\brownie_default.ctp:21
+msgid "Hide advanced filters"
+msgstr "Masquer les filtres avancés"
+
+#: View\Layouts\brownie_default.ctp:25
+msgid "Admin panel"
+msgstr "Panneau d'administration"
+
+#: View\Layouts\brownie_default.ctp:40
+msgid "User: %s"
+msgstr "Utilisateur:%s"
+
+#: View\Layouts\brownie_default.ctp:42
+msgid "Home"
+msgstr "﻿Accueil"
+
+#: View\Layouts\brownie_default.ctp:54
+msgid "Logout"
+msgstr "Se déconnecter"

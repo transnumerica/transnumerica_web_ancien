@@ -1,0 +1,39 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Controller/Component/Auth/TokenAuthenticate.php:68
+msgid "You need to specify token parameter and/or header"
+msgstr ""
+
+#: View/Emails/text/account_verification.ctp:12
+msgid "Hello %s,"
+msgstr ""
+
+#: View/Emails/text/account_verification.ctp:14
+msgid "to validate your account, you must visit the URL below within 24 hours"
+msgstr ""
+
+#: View/Emails/text/new_password.ctp:12
+msgid "Your password has been reset"
+msgstr ""
+
+#: View/Emails/text/new_password.ctp:13
+msgid "Please login using this password and change your password"
+msgstr ""
+
+#: View/Emails/text/new_password.ctp:15
+msgid "Your new password is: %s"
+msgstr ""
+

@@ -1,0 +1,130 @@
+{
+	"id": "68ecf940-52e3-1b14-640c-a6ec24c6de8b",
+	"name": "OCR.space OCR API",
+	"description": "",
+	"order": [
+		"f2cfb5ef-5c10-04ac-a23b-56add2da33a8",
+		"664dd378-54e4-3b27-3b96-d1a86da27665",
+		"25816679-2964-59fb-9821-029cadb62a11"
+	],
+	"folders": [],
+	"timestamp": 1483101730600,
+	"owner": "",
+	"public": false,
+	"requests": [
+		{
+			"id": "25816679-2964-59fb-9821-029cadb62a11",
+			"headers": "apikey: helloworld\n",
+			"url": "https://api.ocr.space/parse/image",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "language",
+					"value": "eng",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "isOverlayRequired",
+					"value": "false",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "base64Image",
+					"value": "data:image/png;base64,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",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1483102127977,
+			"name": "OCR  API call, image as BASE64 string",
+			"description": "Calls the OCR API and submits the image as base64 string",
+			"collectionId": "68ecf940-52e3-1b14-640c-a6ec24c6de8b",
+			"responses": []
+		},
+		{
+			"id": "664dd378-54e4-3b27-3b96-d1a86da27665",
+			"headers": "apikey: helloworld\n",
+			"url": "https://api.ocr.space/parse/image",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "language",
+					"value": "eng",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "isOverlayRequired",
+					"value": "true",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "file",
+					"value": "",
+					"type": "file",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1483102031794,
+			"name": "OCR  API call, image via FILE",
+			"description": "Calls the OCR API and submits the image as file upload form your PC/Server/Macbook",
+			"collectionId": "68ecf940-52e3-1b14-640c-a6ec24c6de8b",
+			"responses": []
+		},
+		{
+			"id": "f2cfb5ef-5c10-04ac-a23b-56add2da33a8",
+			"headers": "apikey: helloworld\n",
+			"url": "https://api.ocr.space/parse/image",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "language",
+					"value": "eng",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "isOverlayRequired",
+					"value": "true",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "url",
+					"value": "http://dl.a9t9.com/blog/ocr-online/screenshot.jpg",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1483101917244,
+			"name": "OCR  API call, image via URL",
+			"description": "Calls the OCR API and submits the image via URL",
+			"collectionId": "68ecf940-52e3-1b14-640c-a6ec24c6de8b",
+			"responses": []
+		}
+	]
+}

@@ -1,0 +1,2 @@
+<?php
+class CountryController extends AppController { public function beforeFilter() { $this->Auth->allow(); } public function flag($spd79321) { $spe1a145['country_code'] = $spd79321; if (in_array(@$spe1a145['country_code'], array('CD'))) { } else { $spe1a145['country_code'] = 'CG'; } CakeSession::write('Localisation', $spe1a145['country_code']); $this->redirect($this->referer()); } }

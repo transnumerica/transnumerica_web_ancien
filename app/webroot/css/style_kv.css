@@ -1,0 +1,449 @@
+/*@import url('https://fonts.cdnfonts.com/css/kopiku');*/
+
+@font-face {
+    font-family: "Kopiku";
+    src: url("../fonts/Kopiku.otf") format("opentype"),
+    url("../fonts/Kopiku.ttf") format("truetype");
+/*
+    font-weight: normal;
+    font-style: normal;
+    */
+}
+
+@font-face {
+    font-family: "Street";
+    src: url("../fonts/street-explorer/StreetExplorer-X3Y9Z.otf") format("opentype");
+    
+}
+
+@font-face {
+    font-family: "Myriad";
+    src: url("../fonts/myriad-pro/MYRIADPRO-REGULAR.OTF");
+}
+
+@font-face {
+    font-family: "Myriad-semi-bold";
+    src: url("../fonts/myriad-pro/MYRIADPRO-SEMIBOLD.OTF");
+}
+
+
+body{
+    font-family: "Myriad-semi-bold", sans-serif !important;
+    
+    background-image: url("../img/kv/motifs_600.png") !important;
+    background-repeat: repeat !important;
+    
+}
+
+.bg-motifs{
+    background-image: url("../img/kv/motifs_600.png") !important;
+    background-repeat: repeat !important;
+}
+
+.qr_link{
+    width:70%;
+}
+
+.em1-1{
+    font-size: 1.1em;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "Myriad-semi-bold" !important;
+}
+
+h4{
+    font-weight: 100;
+    font-size: 1.2rem;
+}
+
+
+.btn-primary{
+    font-weight: 50 !important;
+    font-size: 1rem;
+    background-color:  #0F4B8A !important;
+    border-color:#959aa0 !important;
+}
+
+.transparent{
+    opacity: 50%;
+    border-color: #fff0 !important;
+}
+
+
+.btn-primary:hover{
+    color:#fff;
+    background-color:#1CABE3 !important;
+    border-color:#1CABE3 !important;
+}
+
+.btn-white{
+    font-weight: 50 !important;
+    font-size: 1rem;
+    color: #0F4B8A !important;
+    background-color: #fff !important;
+    border-color:#0F4B8A !important;
+}
+
+.btn-white:hover{
+    color:#fff !important; 
+    background-color:#1CABE3 !important;
+    border-color:#888 !important;
+}
+
+.btn-simple{
+    display: block !important;
+}
+
+.link-simple-white{
+    color: #1CABE3 !important;
+}
+
+.link-simple-white:hover{
+    color: #1CABE3 !important;
+}
+
+.link-simple-white:active{
+    color: #0F4B8A !important;
+}
+
+
+.btn-check:focus+.btn-primary,.btn-primary:focus,.btn-white:focus{
+    
+    box-shadow:0 0 0 .25rem #0F4B8A88;
+}
+.btn-check:checked+.btn-primary,.btn-check:active+.btn-primary,.btn-primary:active, .btn-white:active,.btn-primary.active, .btn-white.active,.show>.btn-primary.dropdown-toggle{
+    background-color:#0F4B8A;
+    border-color:#888;
+}
+.btn-check:checked+.btn-primary:focus,.btn-check:active+.btn-primary:focus,.btn-primary:active:focus,.btn-white:active:focus,.btn-primary.active:focus, .btn-white.active:focus,.show>.btn-primary.dropdown-toggle:focus{
+    box-shadow:0 0 0 .25rem #0F4B8A88;
+}
+/*
+.carousel-caption{
+    padding-top:0 !important;
+    
+}
+*/
+.border-primary{
+    border-radius: 10rem;
+    border-color:#0F4B8A !important;
+    border: 2px solid #0F4B8A !important;
+    box-shadow: 0px 0px 8px #1CABE3;
+}
+
+.border-primary.border-light{
+    border: 1px solid #0F4B8A;
+    box-shadow: 0px 0px 2px #1CABE3;
+}
+
+.border-primary-clear{
+    border-radius: 10rem;
+    border-color:#1CABE3 !important;
+    border: 2px solid #1CABE3 !important;
+    box-shadow: 0px 0px 8px #1CABE3;
+}
+
+.border-primary-clear.border-light{
+    border: 1px solid #1CABE3;
+    box-shadow: 0px 0px 2px #1CABE3;
+}
+
+.border-grey{
+    border-radius: 10rem;
+    border-color:#0d5470 !important;
+    border: 3px solid #0d5470 !important;
+    /*box-shadow: 0px 0px 7px #0F4B8A;*/
+}
+
+.border-grey.border-light{
+    border: 2px solid #0d5470 !important;
+    /*box-shadow: 0px 0px 2px #0F4B8A !important;*/
+}
+
+.border-white{
+    border-radius: 10rem;
+    border-color:#fff !important;
+    border: 4px solid #fff !important;
+    box-shadow: 0px 0px 8px #6a7684 !important;
+}
+
+.border-white.border-light{
+    border: 2px solid #fff !important;
+    box-shadow: 0px 0px 2px #6a7684 !important;
+}
+
+.border-radius-bottom{
+    border-radius: 0rem 0rem 8rem 8rem !important;
+    border-top: 0px solid #fff !important; 
+}
+
+/*
+.border-white.border-radius-bottom{
+    border-top: 4px solid #fff !important;
+}
+*/
+
+.image-shadow{
+    box-shadow: 0px 0px 15px #0006 !important;
+}
+
+.shadow-btn-primary{
+    box-shadow: 0px 0px 4px #0F4B8A;
+}
+
+
+.font-kopiku{
+    font-family: 'Kopiku', sans-serif !important;
+}
+
+.font-street{
+    font-family: 'Street', sans-serif !important;
+}
+
+.font-myriad{
+    font-family: "Myriad", sans-serif !important;
+}
+
+
+.text-primary{
+    color: #0F4B8A !important;
+}
+
+.text-primary-clear{
+    color: #1CABE3 !important;
+}
+
+.text-grey{
+    color: #0d5470 !important;
+}
+
+.text-white-grey{
+    color: #fff !important;
+    text-shadow: 0 0 3px #0d5470 !important;
+}
+
+.text-shadow{
+    text-shadow: 0px 0px 10px #97badf !important;
+}
+
+.bg-primary{
+    background-color: #0F4B8A !important;
+}
+
+.bg-primary-transparent{
+    background-color:  #0F4B8A90 !important;
+}
+
+.bg-white-transparent{
+    background-color: #fff9 !important;
+}
+
+.bg-black-transparent{
+    background-color: #041426aa !important;
+}
+
+.bg-black{
+    background-color: #041426 !important;
+}
+
+.bg-primary-clear{
+    background-color: #1CABE3 !important;
+}
+/*
+.bg-skyblue{
+    background-color: #006ce4;
+}
+
+.bg-bookblue{
+    background-color: #003b95;
+}
+*/
+
+.border-nav{
+    border-radius: 10rem;
+}
+
+.filter-space{
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../img/kv/voyageurs/traveling-with-off-road-car_sm.jpg');
+}
+.filter-space:before{
+    background-color: #0006;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+
+.youtube{
+    width: 100%;
+}
+
+.img_logo{
+    /*display:none;*/
+    width:40px;
+    margin-right: 0;
+    height: auto;
+   
+}
+
+.titre_logo{
+    font-size:calc(0.7rem + 1.5vw) !important;
+}
+
+.datepicker table{
+    margin-left: 0.7rem !important;
+    margin-right: 0.7rem !important;
+    margin-top: 0.7rem !important;
+    margin-bottom: 0.7rem !important;
+
+    overflow: scroll !important;
+}
+    
+
+
+
+.datepicker table th, .datepicker table td{
+    padding-left: 0.3rem !important;
+    padding-right: 0.3rem !important;
+    padding-top: 0.4rem !important;
+    padding-bottom: 0.4rem !important;
+}
+
+
+.bus-seats #legend ul{
+    display: block;
+}
+
+.bus-seats #legend li{
+    display:list-item;
+}
+
+.spinner-loading{
+    background-color: #0009 !important;
+    z-index: 1100;
+}
+
+
+
+/* medias queries */
+
+@media (max-width: 370px){
+    
+
+    .titre_logo{
+        display:none !important;
+    }
+
+}
+
+@media (max-width: 435px){
+    .k-d-xs-none{
+        display: none !important;
+    }
+    .dropdown-rubriques{
+        display: initial !important;
+    }
+
+    .ksticky-top{
+        position: sticky;
+        top: -0.1rem;
+        z-index: 100;
+    }
+
+    .cont1-rubriques, .cont2-rubriques{
+        padding:0 !important;
+    }
+
+    .cont2-rubriques{
+        top:2.5em;
+    }
+
+}
+
+@media(min-width: 436px){
+    .k-d-xs-none{
+        /*display: initial !important;*/
+    }
+    .dropdown-rubriques{
+        display: none !important;
+        
+    }
+
+    .cont2-rubriques{
+        top:2.7em;
+    }
+
+    .ksticky-top{
+        position: sticky;
+        top: -4rem;
+        z-index: 100;
+    }
+    
+    
+   
+}
+
+@media (min-width: 576px) {
+    .youtube{
+        width: 80%;
+    }
+
+    .img_logo{
+        /*display:initial;*/
+        width:100px;
+
+        
+    }
+
+    .ksticky-top{
+        position: sticky;
+        top: -7rem;
+        z-index: 100;
+    }
+
+    .titre_logo{
+        font-size:calc(1.375rem + 1.5vw) !important;
+    }
+
+    
+}
+
+
+@media (min-width: 768px) {
+    .youtube{
+        width: 80%;
+    }
+
+    
+}
+
+
+@media (min-width: 992px){
+    .em-lg-1-1{
+        font-size: 1.1rem;
+    }
+
+    .cont2-rubriques{
+        top:2.1em;
+    }
+
+    .ksticky-top{
+        position: sticky;
+        top: -5.5rem;
+        z-index: 100;
+    }
+
+    .youtube{
+        width: 60%;
+    }
+}
+
+
+
+
+

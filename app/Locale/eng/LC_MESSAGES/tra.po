@@ -1,0 +1,162 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2018-01-15 08:19+0100\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team:  <EMAIL@ADDRESS>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.7.5\n"
+
+#: Config/bootstrap.php:52
+msgid "La vie de projets et services, c’est notre business"
+msgstr "The projects live, is our business"
+
+#: View/About/about.ctp:2
+msgid "À Propos"
+msgstr "About"
+
+#: View/About/about.ctp:5;17 View/About/information.ctp:9
+#: View/Layouts/default.ctp:187 View/Projects/index.ctp:9
+#: View/Services/index.ctp:5;21
+msgid "Accueil"
+msgstr "Home"
+
+#: View/About/about.ctp:6
+msgid "À propos de"
+msgstr "About of"
+
+#: View/About/about.ctp:17 View/Layouts/default.ctp:188
+msgid "Notre Profil"
+msgstr "Our Profile"
+
+#: View/About/about.ctp:34
+msgid "Profil de <span>l'entreprise</span>"
+msgstr "Company <span>Profile </span>"
+
+#: View/About/about.ctp:54
+msgid "Contexte"
+msgstr "Context"
+
+#: View/About/about.ctp:61
+msgid "Savoir plus sur"
+msgstr "Learn more about"
+
+#: View/About/about.ctp:66
+msgid "Stratégies"
+msgstr "Strategies"
+
+#: View/About/about.ctp:71
+msgid "Voir nos Services"
+msgstr "See our Services"
+
+#: View/About/about.ctp:211 View/About/information.ctp:154
+#: View/Contact/index.ctp:163 View/Projects/index.ctp:150
+#: View/Projects/show.ctp:148 View/Services/index.ctp:156
+msgid "Tous droits réservés"
+msgstr "All Rights Reserved"
+
+#: View/About/information.ctp:2;9 View/Layouts/default.ctp:191
+msgid "Nos Archives"
+msgstr "Our Archives"
+
+#: View/Accueil/index.ctp:129 View/Layouts/default.ctp:189
+#: View/Services/index.ctp:2;6;21
+msgid "Nos Services"
+msgstr "Our Services"
+
+#: View/Contact/index.ctp:2
+msgid "Nos Annexes et Contacts"
+msgstr "Our Annexs and Contacts"
+
+#: View/Contact/index.ctp:55
+msgid "An<span>nexe</span>"
+msgstr "An<span>nex</span>"
+
+#: View/Contact/index.ctp:62
+msgid "Business <span>contact</span>"
+msgstr ""
+
+#: View/Contact/index.ctp:68
+msgid "Gérant de GAEng"
+msgstr "Manager of GAEng"
+
+#: View/Contact/index.ctp:76
+msgid "Chargé de l’Adm Technique et Commercial"
+msgstr "Technical and Commercial Adm"
+
+#: View/Contact/index.ctp:128
+msgid "Notre <span>location</span>"
+msgstr "Our <span>location</span>"
+
+#: View/Contact/index.ctp:136
+msgid "Direction"
+msgstr "Office"
+
+#: View/Contact/index.ctp:140
+msgid "N°9, Av. Mangala, Q/Cité verte, C/Selembao, Kinshasa/RD Congo"
+msgstr ""
+
+#: View/Layouts/default.ctp:190 View/Projects/index.ctp:2;9
+msgid "Nos Projets"
+msgstr "Our Projects"
+
+#: View/Layouts/default.ctp:192
+msgid "Nos Contacts"
+msgstr "Our Contacts"
+
+#: View/Projects/index.ctp:30
+msgid "Nos <span>Projets</span>"
+msgstr "Our <span>Projects</span>"
+
+#: View/Projects/index.ctp:105
+msgid "Nos moyens..."
+msgstr "Our means..."
+
+#: View/Projects/index.ctp:116
+msgid "Voir nos Archives"
+msgstr "See our Archives"
+
+#: View/Services/index.ctp:12
+msgid "Contactez-nous à l’adresse"
+msgstr "Contact us at"
+
+#: View/Services/index.ctp:60
+msgid "Nos <span>Services</span>"
+msgstr "Our <span>Services</span>"
+
+#: View/Services/index.ctp:110
+msgid "Valeurs et motivations"
+msgstr "Values and motivations"
+
+#: View/Services/index.ctp:122
+msgid "Voir nos Projets"
+msgstr "See our projects"
+
+#: Model/Service.php:validation for field img_file Model/Slider.php:validation
+msgid "Vous ne pouvez pas envoyer une photo vide"
+msgstr "You can not send an empty photo"
+
+#: Model/Service.php:validation for field img_file Model/Slider.php:validation
+msgid "Merci de soumettre une image valide!"
+msgstr "Thank you for submitting a valid image!"
+
+#: Model/Texte.php:validation for field nom
+msgid "Ce champs ne peut pas être vide..."
+msgstr "This field can not be empty..."
+
+#~ msgid "Ce champs ne peut pas etre vide..."
+#~ msgstr "This field can not be empty ..."
+
+#~ msgid "La vie de projets"
+#~ msgstr "a"
+
+#~ msgid "La vie de projets et services, cest notre business"
+#~ msgstr "a"

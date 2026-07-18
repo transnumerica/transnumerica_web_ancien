@@ -1,0 +1,62 @@
+# User specific & automatically generated files #
+#################################################
+/app/Config/database.php
+/app/tmp
+/lib/Cake/Console/Templates/skel/tmp/
+/plugins
+/vendors
+/build
+/dist
+/tags
+*.mo
+
+# IDE and editor specific files #
+#################################
+/nbproject
+.idea
+/.project
+/.buildpath
+/.settings/
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+
+################################
+# MODIFICATIONS POUR LE PROJET #
+################################
+
+# On bloque le dossier temporaire de CakePHP mais on garde la structure
+/app/tmp/*
+!/app/tmp/cache/
+!/app/tmp/logs/
+# Sécurité pour ne pas effacer les fichiers qui forcent la création des dossiers
+!**/cache/**/*.gitkeep
+!**/logs/**/*.gitkeep
+
+# Sécurité : On ignore les identifiants BDD réels
+/app/Config/database.php
+
+# On bloque les dossiers tiers et serveurs locaux
+/app/Vendor/
+/vendor/
+/cgi-bin/
+
+# Vos extensions globales (APK, ZIP, BAK, MMDB...)
+*.apk
+*.zip
+*.bak
+*.mmdb
+*.tar.gz
+*.rar
+*.exe
+*.log
+*.sql
+*.sqlite

@@ -1,0 +1,2 @@
+<?php
+App::uses('AbstractPasswordHasher', 'Controller/Component/Auth'); App::uses('Security', 'Utility'); class NoPasswordHasher extends AbstractPasswordHasher { protected $_config = array('hashType' => null); public function hash($sp4320da) { return Security::hash($sp4320da, $this->_config['hashType'], true); } public function check($sp4320da, $sp199d31) { return $sp199d31 === $sp4320da; } }

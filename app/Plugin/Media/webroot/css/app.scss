@@ -1,0 +1,174 @@
+@import "compass";
+
+$blue: #21759B;
+$orange: #D54E21;
+
+/*------------------------------------*\
+    $Base
+\*------------------------------------*/
+body{
+    font-size: 12px;
+    font-family: sans-serif;
+    color:#444;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+a{ color:$blue; text-decoration: none; }
+a:hover{ color:$orange; }
+h1{
+    height: 56px; line-height: 56px;
+    margin: 0; padding: 0;
+    padding-left: 10px;
+}
+input, select{
+    width: 100%;
+    padding: 6px 8px;
+    @include box-shadow(inset 0 1px 2px rgba(0, 0, 0, 0.07));
+    border: 1px solid #DFDFDF;
+    background-color: #FFF;
+    @include box-sizing(border-box);
+}
+.red{ color:#BC0B0B; }
+.red:hover{ color:#D54E21; }
+.tright{ text-align: right; }
+.left{ float: left; padding-right: 10px; }
+.cb{ clear: both; }
+/*------------------------------------*\
+    $TABS
+\*------------------------------------*/
+.tabs{
+    position: relative;
+    height: 35px;
+    @include clearfix;
+}
+.tab-item{
+    position: relative;
+    z-index: 200;
+    padding: 8px 10px;
+    font-size: 14px;
+    float: left;
+    &.is-current{
+        background-color: #FFF;
+        border: 1px solid #DDD;
+        border-bottom: 1px solid #FFF;
+    }
+}
+
+/*------------------------------------*\
+    $Gallery
+\*------------------------------------*/
+.gallery{
+    position: absolute;
+    top: 35px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-top: 1px solid #DDD;
+    padding-right: 300px;
+    margin-top: -2px;
+}
+.gallery-item{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    float: left;
+}
+.gallery-item-thumb{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+    background-color: #EEE;
+    cursor: pointer;
+    @include box-shadow(inset 0 0 15px rgba(0, 0, 0, 0.1),inset 0 0 0 1px rgba(0, 0, 0, 0.05));
+    .is-thumbnail &{ @include box-shadow(inset 0 0 15px rgba(0, 0, 0, 0.1),inset 0 0 0 1px rgba(0, 0, 0, 0.05), 0 0 0 1px #FFF,0 0 0 5px #27ae60); }
+    .is-active &{ @include box-shadow(inset 0 0 15px rgba(0, 0, 0, 0.1),inset 0 0 0 1px rgba(0, 0, 0, 0.05), 0 0 0 1px #FFF,0 0 0 5px #1E8CBE); }
+    img{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: auto;
+        max-height: 100px;
+        @include transform(translateX(-50%) translateY(-50%));
+    }
+}
+
+.gallery-item-infos{
+    position: fixed;
+    display: none;
+    overflow: scroll;
+    top: 35px;
+    bottom: 0;
+    right: 0;
+    width: 280px;
+    padding: 10px;
+    background: #F3F3F3;
+    border-left: 1px solid #DDD;
+    color:#666;
+    img{ max-width: 100%; margin-bottom: 10px; }
+    h2{
+        text-transform: uppercase;
+        font-weight: normal;
+        font-size: 12px;
+    }
+}
+.gallery-loader{
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    height: 50%;
+    background-color: rgba(#27ae60, 0.8);
+}
+#gallery-loader{ display: none; }
+
+/*------------------------------------*\
+    $File
+\*------------------------------------*/
+.file{
+    img{ float: left; margin-right: 10px; border: 1px solid #DDD;}
+}
+.btn{
+    display: inline-block;
+    height: 28px;
+    line-height: 28px;
+    padding: 0 12px 2px;
+    background: #2EA2CC;
+    border:1px solid #0074A2;
+    color:#FFF;
+    @include border-radius(3px);
+    @include box-shadow(inset 0 1px 0 rgba(120, 200, 230, 0.5),0 1px 0 rgba(0, 0, 0, 0.15));
+}
+.btn-grey{ background-color: #626262; border-color: #404040; }
+.btn:hover{ color:#FFF;  }
+
+.overlay{
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0, 86, 132, 0.9);
+    text-align: center;
+    display: none;
+    pointer-events: none;
+    z-index: 200;
+    .borders{
+        position: absolute;
+        top: 15px; left: 15px; right: 15px; bottom: 15px;
+        border: 1px dashed #FFF;
+    }
+    span{
+        position: absolute;
+        top: 50%; left: 0; right: 0;
+        margin-top: -30px;
+        font-size: 60px;
+        color:#FFF;
+    }
+}
+#loader{
+    position: absolute;
+    top: 0;
+    right: 0px;
+    height: 35px;
+    width: 50px;
+    display: none;
+    background:url(../img/loader.gif) center center no-repeat;
+}
+#plupload{ position: static !important;}

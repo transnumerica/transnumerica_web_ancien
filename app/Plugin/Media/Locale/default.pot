@@ -1,0 +1,108 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2014-04-18 15:26+0200\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Model/Media.php:46
+msgid "The model '%s' doesn't have a 'Media' Behaviour"
+msgstr ""
+
+#: Model/Media.php:61
+msgid "You don't have the permission to upload this filetype (%s only)"
+msgstr ""
+
+#: Model/Media.php:69
+msgid "You can't send more than %d files"
+msgstr ""
+
+#: Model/Media.php:78
+msgid "The width is too big, it must be less than %dpx"
+msgstr ""
+
+#: Model/Media.php:82
+msgid "The height is too big, it must be less than %dpx"
+msgstr ""
+
+#: Model/Media.php:90
+msgid "The file size is too big, %s max"
+msgstr ""
+
+#: View/Medias/index.ctp:5
+msgid "Upload a new file"
+msgstr ""
+
+#: View/Medias/index.ctp:6
+msgid "Gallery"
+msgstr ""
+
+#: View/Medias/index.ctp:22
+msgid "Drop your files to upload"
+msgstr ""
+
+#: View/Medias/index.ctp:113
+msgid "Do you really want to delete this file ?"
+msgstr ""
+
+#: View/Medias/media.ctp:9
+msgid "About this file"
+msgstr ""
+
+#: View/Medias/media.ctp:17
+msgid "Delete definitively"
+msgstr ""
+
+#: View/Medias/media.ctp:24
+msgid "Is Online"
+msgstr ""
+
+#: View/Medias/media.ctp:24
+msgid "Title"
+msgstr ""
+
+#: View/Medias/media.ctp:28
+msgid "Alt text"
+msgstr ""
+
+#: View/Medias/media.ctp:32
+msgid "Target"
+msgstr ""
+
+#: View/Medias/media.ctp:36
+msgid "Alignment"
+msgstr ""
+
+#: View/Medias/media.ctp:39
+msgid "None"
+msgstr ""
+
+#: View/Medias/media.ctp:40
+msgid "Center"
+msgstr ""
+
+#: View/Medias/media.ctp:41
+msgid "Left"
+msgstr ""
+
+#: View/Medias/media.ctp:42
+msgid "Right"
+msgstr ""
+
+#: View/Medias/media.ctp:56
+msgid "Set as thumbnail"
+msgstr ""
+
+#: View/Medias/media.ctp:60
+msgid "Insert into post"
+msgstr ""
+

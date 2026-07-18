@@ -1,0 +1,2 @@
+<?php
+class InvoiceController extends AppController { public function beforeFilter() { parent::beforeFilter(); $this->Auth->allow(); } public function preview($sp5654f1 = null) { $this->set('sale_id', $sp5654f1); } }

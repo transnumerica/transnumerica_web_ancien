@@ -1,0 +1,2 @@
+<?php
+class AboutController extends AppController { public function beforeFilter() { parent::beforeFilter(); $this->Auth->allow(); } public function index() { } public function send() { } public function receiving() { } public function saving() { } public function loan() { } public function about() { } public function help() { } public function cgv() { } }
