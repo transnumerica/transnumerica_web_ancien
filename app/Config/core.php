@@ -6,7 +6,7 @@ if(in_array($_SERVER['REMOTE_ADDR'], $localhost) OR (stripos($_SERVER['REMOTE_AD
 	Configure::write('debug', 1);
 	Configure::write('App.localhost', true);
 }else {
-	Configure::write('debug', 2);
+	Configure::write('debug', 0);
 	Configure::write('App.localhost', false);
 
 	App::uses('CakeRequest', 'Network');
