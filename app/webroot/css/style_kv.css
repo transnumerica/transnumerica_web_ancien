@@ -18,12 +18,12 @@
 
 @font-face {
     font-family: "Myriad";
-    src: url("../fonts/myriad-pro/MYRIADPRO-REGULAR.OTF");
+    src: url("../fonts/myriad-pro/MYRIADPRO-REGULAR.OTF") format("opentype");
 }
 
 @font-face {
     font-family: "Myriad-semi-bold";
-    src: url("../fonts/myriad-pro/MYRIADPRO-SEMIBOLD.OTF");
+    src: url("../fonts/myriad-pro/MYRIADPRO-SEMIBOLD.OTF") format("opentype");
 }
 
 
