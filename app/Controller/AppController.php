@@ -290,20 +290,10 @@ CakeSession::write('Localisation', 'CG');
       $this->Flash->notif(__d('translate',  "Le formulaire a expiré, Veuillez réessayer"), ['params' => 'echec']);
     }elseif ($type == 'secure') {
       $server_name = env('SERVER_NAME');
+      return;
       // On enleve les www. pour eviter les blems des fausses redirections
       if (substr($server_name, 0, 4) == 'www.') $server_name = substr_replace($server_name, '', 0, 4);
-      
-      // ANCIEN CODE QUI CASSE TOUT SUR L'IP :
-      // $this->redirect('https://www.' . $server_name . $this->here);
-      
-      // NOUVEAU CODE : Si c'est une IP, on ne force pas le HTTPS/WWW pour le test
-      if (filter_var($server_name, FILTER_VALIDATE_IP)) {
-          // On reste en HTTP normal sur l'IP
-          return; 
-      } else {
-          // Comportement normal si c'est un vrai nom de domaine plus tard
-          $this->redirect('https://www.' . $server_name . $this->here);
-      }
+      $this->redirect('https://www.' . $server_name . $this->here);
     }else{
       $this->Flash->notif(sprintf(__d('translate',  "Erreur, veuillez remplir les champs correctement (%s)"), $type), ['params' => 'echec']);
     }
